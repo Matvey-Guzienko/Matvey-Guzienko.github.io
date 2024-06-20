@@ -60,7 +60,7 @@ class TikTokIOConnection {
 }
 
 
-let connection = new TikTokIOConnection();
+let connection = new TikTokIOConnection("https://tiktok-chat-reader.zerody.one/");
 
 
 let Config = {
