@@ -69,7 +69,7 @@ let Config = {
 
     updateConfig() {
 
-        fetch("/config.json").then((response) => response.json()).then((json) => {
+        fetch("/donateWidget/config.json").then((response) => response.json()).then((json) => {
             Config = Object.assign({}, Config, json);
 
             if (this.firstConnect) {
