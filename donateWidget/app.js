@@ -229,3 +229,7 @@ connection.on("subscribe", (data) => {
     announcement.sound();
 
 })
+
+connection.on("tiktokDisconnected", (data) => {
+    Config.firstConnect = true
+})
