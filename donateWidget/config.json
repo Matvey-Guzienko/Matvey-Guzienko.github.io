@@ -11,11 +11,11 @@
 
   "sounds": {
     "gift": {
-      "rose": "/sounds/enchanted.wav",
+      "rose": "/donateWidget/sounds/enchanted.wav",
       "default": null
     },
-    "subscribe": "/sounds/enchanted.wav",
-    "follow": "/sounds/enchanted.wav"
+    "subscribe": "/donateWidget/sounds/enchanted.wav",
+    "follow": "/donateWidget/sounds/enchanted.wav"
   },
 
   "enabled": {
